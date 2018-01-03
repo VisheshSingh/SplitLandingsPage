@@ -99,3 +99,31 @@ h1{
     height: 100%;
     background: var(--right-bg-color);
 }
+
+.split.left, .split.right, .split.right:before, .split.left:before {
+    transition: var(--speed) all ease-in-out;
+}
+
+.hover-left .left {
+    width: var(--hover-width);
+}
+
+.hover-left .right {
+    width: var(--other-width);
+}
+
+.hover-left .right:before {
+    z-index: 2;
+}
+
+.hover-right .left {
+    width: var(--other-width);
+}
+
+.hover-right .right {
+    width: var(--hover-width);
+}
+
+.hover-right .left:before {
+    z-index: 2;
+}
