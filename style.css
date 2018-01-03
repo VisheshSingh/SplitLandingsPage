@@ -137,3 +137,9 @@ h1{
       width: 12rem;
     }
 }
+
+@media(min-height: 700px) {
+    .btn {
+      top: 70%;
+    }
+}
