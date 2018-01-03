@@ -138,7 +138,7 @@ h1{
     }
 }
 
-@media(min-height: 700px) {
+@media(max-height: 700px) {
     .btn {
       top: 70%;
     }
